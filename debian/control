@@ -1,0 +1,12 @@
+Source: consul
+Section: utils
+Priority: extra
+Maintainer: Neerav Kumar (PPA) <me@nero.im>
+Build-Depends: debhelper (>= 7.0.50~), golang
+Standards-Version: 3.9.1
+Homepage: http://consul.io
+
+Package: consul
+Architecture: amd64
+Depends: ${misc:Depends}
+Description: Consul has multiple components, but as a whole, it is a tool for discovering and configuring services in your infrastructure.
